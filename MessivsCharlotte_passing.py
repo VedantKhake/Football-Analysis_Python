@@ -22,5 +22,5 @@ for x in range(len(df['x'])):
                if df['outcome'][x]=='Unsuccessful':
                 plt.plot((df['x'][x], df['endX'][x]), (df['y'][x], df['endY'][x]), color='red')
                 plt.scatter(df['x'][x],df['y'][x],color='red')
-plt.title('Messi Pass Map vs Charlotte',color='White',size=20)
+plt.title('Messi Pass Map vs Charlotte',color='White',size=22)
 plt.show()
